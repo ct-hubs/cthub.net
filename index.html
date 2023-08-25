@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="CT-HUB, cthub, nyeri coding club, sirfox">
+    <meta name="description" content="software engineering, web development, mobile app development, sirfox">
+    <title>CT~Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e57778b6af.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">OurWork</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineering & Cyber-Security</p>
+                <h1>CT <span> ~ Hub</span> <br> </h1>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="about">
+        <!-- -------------About---------------- -->
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about_us.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Us</h1>
+                    <p>Geoin Land Surveying ltd of GIS Solutions is a company that provides land surveying services such as topographical surveys, beacon establishment, land transfers, transactions and succession and property and land consultant.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('location')">Location</p>
+                    <p class="tab-links" onclick="opentab('mission')">Our Mission</p>
+                    <p class="tab-links" onclick="opentab('vision')">Our Vision</p>
+                </div>
+                <!-- Location -->
+                <div class="tab-contents active-tab" id="location">
+                    <ul>
+                        <li><span>NYERI TOWN <i class="fa-solid fa-location-dot"></i></span><br>PEAK BUSINESS CENTER</li>
+                        <li><span>OPPOSITE</span><br>absa BANK</li>
+                        <li><span>FLOOR</span><br>2ND FLOOR ROOM NO.5</li>
+                    </ul>
+                </div>
+
+                <!-- Mission -->
+                <div class="tab-contents" id="mission">
+                    <ul>
+                        <li><span>OUR MISSION IS: </span>To provide innovative and reliable software solutions that protect and empower our clients in a digital world.</li>
+                    </ul>
+                </div>
+                <!-- Vision -->
+                <div class="tab-contents" id="vision">
+                    <ul>
+                        <li><span>OUR VISON IS: </span>We are a team of passionate and skilled professionals who provide innovative and reliable solutions for the digital security and development needs of our clients. We aim to protect, enhance, and empower the online presence and performance of businesses and organizations across various sectors and domains. We value integrity, excellence, and customer satisfaction in everything we do.</li>
+                    </ul>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Our Services</h1>
+            <div class="services-list">
+                <!-- Web Development, mobile app and ui/ux -->
+                <div>
+                    <i class="fa-brands fa-app-store-ios fa-bounce" style="color: #b71536;"></i>
+                    <h2>Web & Mobile App Development</h2>
+                    <p>We are a web and mobile app development company. We make solutions for different business needs and goals. We use various technologies and platforms. We do web design and development, mobile app design and development, e-commerce solutions, and more. We have happy clients in different industries and sectors. We follow the best practices and standards of web and mobile app development. We help our clients grow their online presence and reach their audience. Contact us today for your project. 😊</p>
+                    <a href="https://www.toptal.com/app/developing-mobile-web-apps-when-why-and-how">Learn More</a>
+                </div>
+
+                <!-- CyberSecurity and computer networking -->
+                <div>
+                    <i class="fa-solid fa-network-wired fa-beat" style="color: #b71536"></i>
+                    <h2>Cyber-Security & Computer Networking</h2>
+                    <p>We are a cyber security and computer networking company. We secure data, systems, and networks from cyber threats and attacks. We also build, maintain, and troubleshoot network infrastructure and devices. We have security and network services for different sectors and domains. We follow the best practices and standards of cyber security and computer networking. We help our clients protect their data and systems and improve their network performance and efficiency. Contact us today for your project. 😊</p>
+                    <a href="https://www.kaspersky.com/resource-center/definitions/what-is-cyber-security">Learn More</a>
+                </div>
+
+                <!-- AI technlology, IoT and Data science -->
+                <div>
+                    <i class="fa-solid fa-database fa-fade" style="color: #b71536"></i>
+                    <h2>AI Technology, IoT and Data Science</h2>
+                    <p>Our company is an AI, IoT and data science company. We provide smart solutions and insights for various clients and organizations.
+
+                        We have a team of talented and passionate experts who can work with different AI, IoT and data science technologies and tools, such as machine learning, deep learning, computer vision, natural language processing, speech recognition, chatbots, robotics, sensors, actuators, cloud computing, big data, analytics, visualization, and more. Contact us today for your project. 😊</p>
+                    <a href="https://data-science-ua.com/industries/ai-in-iot/">Learn More</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Our Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/web_development.jpg" alt="">
+                    <div class="layer">
+                        <h3>Web Development</h3>
+                        <!-- <p>more infor here</p> -->
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/mobile_app.jpg" alt="">
+                    <div class="layer">
+                        <h3>Mobile App Development</h3>
+                        <!-- <p> more infor here</p> -->
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/ui-ux.jpg" alt="">
+                    <div class="layer">
+                        <h3>UI/UX Design</h3>
+                        <!-- <p>more info here</p> -->
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/cyber_security.jpg" alt="">
+                    <div class="layer">
+                        <h3>Cyber-Security</h3>
+                        <!-- <p>more infor here</p> -->
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/networking.jpg" alt="">
+                    <div class="layer">
+                        <h3>Computer Networking</h3>
+                        <!-- <p> more info here -->
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/AI_tech.jpg" alt="">
+                    <div class="layer">
+                        <h3>Big Data & AI Technology</h3>
+                        <!-- <p>more infor here</p> -->
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- Contact Info -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Us</h1>
+                    <p><i class="fa-solid fa-envelope"></i>cyruswaihenya50@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+254115210017</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/cyrus.calyx.5246/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/Iam_SirFox"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://wa.me/+254115210017/"><i class="fa-brands fa-whatsapp"></i></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Application Form <i class="fa-solid fa-download fa-bounce"></i></a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright<i class="fa-regular fa-copyright"></i>Sirfox <i class="fa-solid fa-heart"></i> 2023 </p>
+        </div>
+    </div>
+
+
+<!-- Script for About section -->
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+    <!-- script for google sheet deployment -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxm5fj60ZTwV1KGgiSYtjUtEc_GyDiX0NJAO2-8sg4NAw_t6H9K5e4I8_MLTTz0BgcY/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Your Message was Received Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
